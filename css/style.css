@@ -8,9 +8,6 @@
     padding: 20px;
 }
 
-/* .nav-item {
-    margin: 10px;
-} */
 
 .navbar a {
     color: white !important;
@@ -39,4 +36,8 @@
     max-width: 700px;
     color:black;
     text-align: right;
+  }
+
+  .footer {
+      background-color:#808080;
   }
