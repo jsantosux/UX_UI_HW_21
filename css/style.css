@@ -36,7 +36,16 @@
     max-width: 700px;
     color:black;
     text-align: right;
+    font-family: 'Montserrat', sans-serif;
   }
+
+
+  /* CARDS section */
+.col-3 {
+    padding: 25px;
+}
+
+
 
   .footer {
       background-color:#808080;
