@@ -10,6 +10,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+    <!--montserrat font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 <!--BOOTSTRAP CDN-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -74,32 +78,39 @@
   </nav>
 
   <!--HERO IMAGE-->
-<section class="intro">
-    <div class="container">
-        <div class="row">
-            <div class="col-6">
+<section class="">
+    <div class="container-fluid">
+        <div class="row intro">
+            <div class="col-6" style="align-self: center;padding-left: 100px;">
                 <h1>Handlettering</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris finibus libero a justo condimentum volutpat. Nullam ac volutpat magna. Vivamus eget varius purus, at iaculis erat. Nulla lorem velit, rutrum et lacinia nec, congue ut nulla. Etiam auctor massa elit, sed egestas massa tempor eget. Nam facilisis magna eget tellus dapibus mattis. In vel ultrices justo. Mauris et mollis mi. Nunc mollis mattis risus, et venenatis ex convallis vel. Sed ut ligula orci. </p>
             </div>
-        <div class="col-6">
-           <div class="image-stack">
-                <div class="image-stack__item image-stack__item--top">
+            <div class="col-6">
+              <!-- <div class="image-stack"> -->
+                <div class="image-stack__item image-stack__item--top" style="text-align: center; padding-bottom: 30px;">
                     <img src="images/pexels-anthony-shkraba-4348403.png">
                 </div>
-                <div class="image-stack__item image-stack__item--bottom">
-                    <img src="images/Hero_Image.jpg" height="600" width="400">
-                </div>
+              <!-- </div> -->
             </div>
+          </div>
+          <div class="row">
+            <div class="col-12" style="margin-top: -225px; text-align: center; width: 100%;">
+              <div class="image-stack__item image-stack__item--bottom">
+                <img src="images/Hero_Image.jpg" height="600" width="400">
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
 </section>
 
 <!--HOW TO SECTION-->
 <section class="howto">
     <div class="container">
         <div class="row">
-            <div class="col-2">
+            <div class="col-3" style="margin-top: -100px; text-align: right; padding: 0">
                 <h1>How to</h1>
-                <span>get started</span>
+                <h6>get started</h6>
             </div>
         </div>
         <div class="row">
@@ -151,7 +162,7 @@
 <section class="tips">
     <div class="container">
         <div class="row">
-            <div class="col-2">
+            <div id="col-3">
                 <h1>Tips</h1>
                 <p>for practice and improving</p>
             </div>
@@ -192,11 +203,13 @@
 <!-- RELATED HOBBIES SECTION -->
 
 
-<section class="howto">
+<section class="hobbies">
     <div class="container">
         <div class="row">
             <div class="col-12">
+              <a href="relatedhobbies.html">
                 <h1>Related Hobbies</h1>
+              </a>
             </div>
         </div>
         <div class="row">

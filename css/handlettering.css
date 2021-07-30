@@ -32,7 +32,7 @@ h1 {
 }
 
 .howto {
-    padding: 50px;
+    padding: 25px;
 }
 
 .tools {
@@ -43,10 +43,15 @@ h1 {
     padding: 50px;
 }
 
-.howto {
-    text-align: center;
+.tips h1 {
+    margin-bottom: 0px;
 }
 
+
+#col-3 p {
+    position: relative;
+    left: 50px;
+}
 .image-stack {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -56,11 +61,40 @@ h1 {
 .image-stack__item--top{
     grid-column: 1 / span 8;
     grid-row: 1;
-    padding-top: 90%;
+    /* padding-top: 90%; */
     z-index: 1;
 }
 
 .image-stack__item--bottom {
     grid-column:  3 / -1;
     grid-row:  1;
+}
+
+/* HOW TO SECTION */
+
+
+.howto h1 {
+    margin-bottom: 0;
+}
+
+.howto h6 {
+   position: relative;
+   left: 50px;
+   font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* HOBBIES section */
+
+
+.hobbies h1 {
+    color: black;
+    text-align: center;
+}
+
+.hobbies h1:hover {
+    text-decoration: underline;
 }
